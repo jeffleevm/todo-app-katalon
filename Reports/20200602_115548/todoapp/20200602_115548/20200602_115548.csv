@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+todoapp,Chrome 83.0.4103.61,,,2020-06-02 11:55:52,2020-06-02 11:56:07,14.615s,PASSED
+,,,,,,,
+Test Cases/todoapp-test,Chrome 83.0.4103.61,,,2020-06-02 11:55:53,2020-06-02 11:56:07,14.064s,PASSED
+"openBrowser("""")",Chrome 83.0.4103.61,,,2020-06-02 11:55:54,2020-06-02 11:55:58,4.746s,PASSED
+"navigateToUrl(""http://a76b50877cf1c11e9af7c0a6a4a42d3b-1168106156.ap-southeast-1.elb.amazonaws.com:8085/"")",Chrome 83.0.4103.61,,,2020-06-02 11:55:58,2020-06-02 11:56:03,4.371s,PASSED
+"setText(findTestObject(""Object Repository/Page_AngularFrontend/input_title""), ""hello world"")",Chrome 83.0.4103.61,,,2020-06-02 11:56:03,2020-06-02 11:56:04,1.054s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_AngularFrontend/input_title""), Keys.chord(ENTER))",Chrome 83.0.4103.61,,,2020-06-02 11:56:04,2020-06-02 11:56:04,0.598s,PASSED
+"click(findTestObject(""Object Repository/Page_AngularFrontend/click_tick""))",Chrome 83.0.4103.61,,,2020-06-02 11:56:04,2020-06-02 11:56:05,0.582s,PASSED
+"click(findTestObject(""Object Repository/Page_AngularFrontend/click_edit""))",Chrome 83.0.4103.61,,,2020-06-02 11:56:05,2020-06-02 11:56:05,0.495s,PASSED
+"setText(findTestObject(""Object Repository/Page_AngularFrontend/input_edit""), ""hello world 123"")",Chrome 83.0.4103.61,,,2020-06-02 11:56:05,2020-06-02 11:56:06,0.675s,PASSED
+"click(findTestObject(""Object Repository/Page_AngularFrontend/click_done""))",Chrome 83.0.4103.61,,,2020-06-02 11:56:06,2020-06-02 11:56:06,0.402s,PASSED
+"click(findTestObject(""Object Repository/Page_AngularFrontend/click_undo_tick""))",Chrome 83.0.4103.61,,,2020-06-02 11:56:06,2020-06-02 11:56:07,0.410s,PASSED
+closeBrowser(),Chrome 83.0.4103.61,,,2020-06-02 11:56:07,2020-06-02 11:56:07,0.188s,PASSED
